@@ -10,11 +10,11 @@ function Main() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=matrix`)
+    fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=matrix`)
       .then((response) => response.json())
       .then((data) => setMovies(data.Search), setLoading(false))
       .catch((err) => {
-        console.log(err);
+        console.error(err);
         setLoading(false);
       });
   }, []);
@@ -22,12 +22,16 @@ function Main() {
   const searchMovies = (str, type = 'all') => {
     setLoading(true);
     fetch(
-      `http://www.omdbapi.com/?apikey=${API_KEY}&s=${str}${
+      `https://www.omdbapi.com/?apikey=${API_KEY}&s=${str}${
         type !== 'all' ? `&type=${type}` : ''
       }`
     )
       .then((response) => response.json())
-      .then((data) => setMovies(data.Search), setLoading(false));
+      .then((data) => setMovies(data.Search), setLoading(false))
+      .catch((err) => {
+        console.error(err);
+        setLoading(false);
+      });
   };
 
   return (

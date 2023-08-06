@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# "Movies"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description of the project
 
-## Available Scripts
+The "Movies" project is a web application that allows you to view the list of the user found by search query, as well as sort the found by category.
 
-In the project directory, you can run:
+## Main functions
 
-### `npm start`
+1. List of movies: When the application is deployed, the user sees a page with the requested list of movies/series in the form of cards. Each card represents a specific movie and contains its poster and basic information such as title and release year.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Movie search: Users can use the search function to find movies and series by title.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Sorting by categories: Users can choose to display only movies/series only, making their search more targeted.
 
-### `npm test`
+## Technical details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Frontend: The application is developed using modern web technologies such as HTML, CSS and JavaScript. For convenient and efficient display of movie cards, materializecss.com is used.
 
-### `npm run build`
+- API: The project uses a third-party API - OMDb API - to get information about movies and series.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project development
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The "Movies" project can be expanded and improved in the future. Some ideas for further development include:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- User Accounts: The development of a user account system will allow users to save their preferences and mark movies they have already watched or want to watch.
 
-### `npm run eject`
+- Recommendations: Implementing a recommendation system based on user preferences and viewing history will help offer personalized movie listings.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Advanced Search: Adding advanced search capabilities for various criteria such as actors, directors, release year, and more.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Comments and ratings: Developing the functionality of commenting on movies and rating their users can make the application more interactive.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Mobile application: Creating a mobile application will allow users to access "Movies" from mobile devices and watch movies at any time.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Conclusion
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The "Movies" project provides a convenient way to view a list of films in the form of cards with the function of sorting by categories. This application will be an interesting and useful tool for cinephiles and anyone who wants to quickly find and get acquainted with films from different genres and eras.
