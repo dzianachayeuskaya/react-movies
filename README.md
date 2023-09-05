@@ -1,5 +1,7 @@
 # "Movies"
 
+[Demo](https://dzianachayeuskaya.github.io/react-movies).
+
 ## Description of the project
 
 The "Movies" project is a web application that allows you to view the list of the user found by search query, as well as sort the found by category.
